@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intermediate HTML,CSS and JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../logo.png" alt="apexplanet logo">
+    </div>
+    <nav>
+      <a href="#formsection">Contact Form</a>
+      <a href="#todosection">To-Do List</a>
+    </nav>
+  </header>
+  <section>
+
+    <div id="formsection">
+      <h2>Contact Form</h2>
+      <form id="form">
+        <input type="text" id="name" placeholder="Enter your Name" required>
+        <input type="email" id="email" placeholder="Enter your Email" required>
+        <textarea id="message" placeholder="write your message here..." rows="4" required></textarea>
+        <button type="submit">Submit</button>
+        <p id="errMsg" class="error"></p>
+      </form>
+    </div>
+ 
+    <div id="todosection">
+      <h2>To-Do List</h2>
+      <div class="todoContainer">
+        <input type="text" id="taskInput" placeholder="New task...">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+
+</section>
+  <footer>
+    <p>&copy; 2025 KavyaRavinder. All rights reserved.</p>
+    <p>Connect with me:<a href="https://www.linkedin.com/in/gajulakavya12/"> Linkedin</a></p>
+    <p>made by me with 🖤</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
