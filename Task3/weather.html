@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intermediate HTML, CSS and JavaScript</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../logo.png" alt="apexplanet logo" />
+      </div>
+      <nav>
+        <a href="quizz.html">Quizz</a>
+        <a href="weather.html">Weather API</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="outer">
+        <div class="WeatherApp">
+          <h2>Weather App by Kavya</h2>
+          <div id="weather-image-container">
+            <img id="weather-image" src="" alt="Weather Image" class="weather-image" />
+          </div>
+
+          <div id="search-box">
+            <input type="text" id="city-name" placeholder="Enter city name" />
+            <button id="search-btn">Search</button>
+          </div>
+
+          <div id="info-box">
+            <p><strong>City:</strong> <span id="city">Karimnagar</span></p>
+            <p><strong>Temperature:</strong> <span id="temp">35.72°C</span></p>
+            <p><strong>Feels Like:</strong> <span id="feels-like">35.28°C</span></p>
+            <p><strong>Humidity:</strong> <span id="humidity">28%</span></p>
+            <p><strong>Weather:</strong> <span id="weather">Clear Sky</span></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 KavyaRavinder. All rights reserved.</p>
+      <p>Connect with me: <a href="https://www.linkedin.com/in/gajulakavya12/">LinkedIn</a></p>
+      <p>Made with 🤍</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

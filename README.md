@@ -55,6 +55,42 @@ This repository contains my completed submissions for the **ApexPlanet Internshi
 
 ---
 
+## ✅ TASK 3: Advanced Styling and JavaScript
+
+### Objective:Gain advanced skills in CSS and JavaScript to build interactive and responsive websites.
+
+#### ✔️ Project Steps Covered:
+1. **Apply Responsive Design Using Media Queries**
+- Ensure web pages are visually appealing across mobile, tablet, and desktop devices.
+- Implement media queries to adjust layouts, font sizes and other elements based on screen size.
+- Focus on building a seamless experience across different devices.
+
+2. **Build an Interactive Quiz using javascript**
+- Develop more complex and interactive JavaScript projects.
+- Create an interactive quiz featuring multiple questions, instant feedback, and score calculation.
+
+3. **Fetch Data from an API Using JavaScript**
+- Fetch data from a public API (such as a weather API).
+- Dynamically render the fetched data onto the web page.
+- Handle loading states and error messages gracefully.
+
+## 🔥 Features
+
+- Fully responsive layout
+- Dynamic DOM Manipulation
+- API Integration with Fetch
+- Interactive UI Elements
+- Mobile-first design approach
+- Smooth UX/UI transitions
+
+## ⚙️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+
+- No additional dependencies needed — pure HTML, CSS, and JavaScript!
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
@@ -73,5 +109,9 @@ This repository contains my completed submissions for the **ApexPlanet Internshi
 ## 📝 License
 
 - This project is open source and available under the MIT License.
+
+
+## 📩 Feedback
+Feel free to open issues or pull requests if you have suggestions or improvements!
 
 
